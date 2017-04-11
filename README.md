@@ -1,6 +1,8 @@
 # NovelVirusSeq
 Scans ngs fasta sequences for putative viruses - uses prokka, blast, and hhpred to predict ORFs and gene products
 
+NOTE: I kinda don't use this very much right now so it'll languish here in a state of non development but if anyone is actually using this you can let me know and I can continue development. I'll also eventually get back to the novel virus side of things but for now this is kinda just on the shelf. 
+
 # Virus_annotate
 Searches a file with many fastas for ORFs and does gene prediction here - basically prokka in batch mode that automatically will blast and HHPRED every single predicted viral gene. Requires prokka (in -c mode) and BLAST+ and HHPRED
 
